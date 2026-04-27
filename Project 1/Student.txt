@@ -1,0 +1,2 @@
+2023100000350,Toufiqul Islam,CSE,64,4.0
+227,ifti,CSE,64,3.8

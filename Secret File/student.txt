@@ -1,0 +1,5 @@
+
+101,taufiqul,101tau,CSE,64,3.88
+102,Rafi,102tau,CSE,64,3.98
+103,ifti,103tau,CSE,64,3.78
+104,rifat,104tau,CSE,64,3.98
