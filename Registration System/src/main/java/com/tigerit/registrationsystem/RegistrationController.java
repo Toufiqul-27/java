@@ -29,4 +29,10 @@ public class RegistrationController {
         IO.println("not showing : " + pass);
     }
 
+    @FXML
+    public void RegistrationLabelClick(){
+        IO.println("log");
+        HelloApplication.changeScene("login");
+    }
+
 }

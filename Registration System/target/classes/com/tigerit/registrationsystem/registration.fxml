@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tigerit.registrationsystem.RegistrationController">
    <children>
       <TextField fx:id="nameTextField" layoutX="64.0" layoutY="166.0" />
@@ -33,10 +32,12 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <Button layoutX="276.0" layoutY="338.0" mnemonicParsing="false" onAction="#saveButtonClickEvent" text="Save">
+      <Button layoutX="439.0" layoutY="298.0" mnemonicParsing="false" onAction="#saveButtonClickEvent" text="Save">
          <font>
             <Font size="19.0" />
          </font>
       </Button>
+      <Label layoutX="129.0" layoutY="360.0" text="already have an account?" />
+      <Label layoutX="269.0" layoutY="360.0" onMouseClicked="#RegistrationLabelClick" text="Sign in here" textFill="#1721da" />
    </children>
 </AnchorPane>
