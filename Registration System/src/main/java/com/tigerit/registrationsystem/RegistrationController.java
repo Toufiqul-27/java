@@ -27,6 +27,10 @@ public class RegistrationController {
         IO.println("email is = " + email);
         String pass = passwordField.getText();
         IO.println("not showing : " + pass);
+
+        User user= new User(name,email,pass);
+        HelloApplication.userList.add(user);
+        HelloApplication.changeScene("login");
     }
 
     @FXML

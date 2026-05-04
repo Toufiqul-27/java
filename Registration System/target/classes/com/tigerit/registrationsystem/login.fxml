@@ -6,7 +6,6 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tigerit.registrationsystem.LoingController">
    <children>
       <Label layoutX="94.0" layoutY="81.0" text="Email" />
@@ -15,7 +14,7 @@
       <Label layoutX="236.0" layoutY="315.0" onMouseClicked="#registerLabelClick" text="REgistration" textFill="#0e44c3" />
       <TextField fx:id="emailTextFIeld" layoutX="94.0" layoutY="117.0" />
       <PasswordField fx:id="passwordField" layoutX="94.0" layoutY="212.0" />
-      <Button fx:id="button" layoutX="391.0" layoutY="237.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="50.0" text="Login" />
-      <Label fx:id="emailError" layoutX="94.0" layoutY="142.0" text="Error" textFill="#da1818" />
+      <Button fx:id="button" layoutX="391.0" layoutY="237.0" mnemonicParsing="false" onAction="#loginButtonClick" prefHeight="25.0" prefWidth="50.0" text="Login" />
+      <Label fx:id="emailError" layoutX="94.0" layoutY="142.0" textFill="#da1818" />
    </children>
 </AnchorPane>

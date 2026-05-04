@@ -1,6 +1,7 @@
 module com.tigerit.registrationsystem {
     requires javafx.controls;
     requires javafx.fxml;
+    requires jdk.jfr;
 
 
     opens com.tigerit.registrationsystem to javafx.fxml;
