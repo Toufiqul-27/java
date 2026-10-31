@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Toufiqul-27/portfolio-1/main/assets/github-banner.svg" alt="Toufiqul Islam developer banner" width="100%"/>
+</div>
+
+---
+
 # Java Learning & Projects
 
 A collection of Java exercises, OOP practice and application projects maintained by **Toufiqul Islam**.
